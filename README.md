@@ -16,5 +16,4 @@ Olá 👋
 
 📮 - Quer falar comigo? Estou a disposição lá no LinkedIn: https://www.linkedin.com/in/jailsom-nogueira
 
-![screencapture-127-0-0-1-5500-index-html-2020-11-19-14_15_04](https://user-images.githubusercontent.com/65511670/99700225-a7cf8c00-2a71-11eb-96d5-c03d300849ba.png)
 ![screencapture-127-0-0-1-5500-index-html-2020-11-19-14_14_17](https://user-images.githubusercontent.com/65511670/99700231-a900b900-2a71-11eb-8cbe-1998e6164cba.png)

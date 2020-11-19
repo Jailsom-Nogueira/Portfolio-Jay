@@ -170,8 +170,13 @@ p {
   margin: 0!important;
 }
 
-#profile-pic {
-  width: 40%;
+/* Profile Pic */
+#profile-pic-block {
+  background-color: #063447;
+}
+
+#profile-pic-block img {
+  width: 100vw;
 }
 
 /* About */
@@ -181,7 +186,7 @@ p {
   align-items: center;
   flex-wrap: wrap;
   column-gap: 2rem;
-  padding: 2rem 0!important;
+  padding: 1rem 0!important;
 
   color: white;
   background-color: #063447;

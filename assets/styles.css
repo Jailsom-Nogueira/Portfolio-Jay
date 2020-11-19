@@ -10,6 +10,7 @@ body {
   
   display: flex;
   justify-content: center;
+  background-color: #18181a;
 }
 
 p {
@@ -86,7 +87,7 @@ p {
 .social-icons-horizontal {
   display: flex;
   column-gap: 1rem;
-  width: 5vw;
+  width: 100%;
 }
 
 .social-icons-horizontal a i {
@@ -275,6 +276,7 @@ p {
   padding: 3rem 0 2rem 0;
 
   color: #292929;
+  background-color: white;
 }
 #projects-block h1 {
   text-align: center;

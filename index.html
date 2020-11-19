@@ -9,6 +9,7 @@
 
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
+  <link rel="stylesheet" media='screen and (min-width: 260px) and (max-width: 760px)' href="./assets/cellphone.css" />
   <link rel="stylesheet" media='screen and (min-width: 760px) and (max-width: 1000px)' href="./assets/ipad.css" />
   <link rel='stylesheet' href='./assets/styles.css'>
 
@@ -22,6 +23,7 @@
       <a href="#home">
         <h1>Jay</h1>
       </a>
+
       <div>
         <a href="#about-block">quem sou</a>
         <a href="#projects-block">projetos</a>
@@ -30,7 +32,7 @@
     </div>
 
     <div id='banner-block'>
-      <img id='profile-pic' src='./assets/images/profile-picture-jay-big.jpg' alt='Profile Jay'>
+      <img id='profile-pic' class="not-in-mobile" src='./assets/images/profile-picture-jay-big.jpg' alt='Profile Jay'>
 
       <div>
         <h3>Olá!</h3>
@@ -77,14 +79,13 @@
           <p>Javascript</p>
           <p>Typescript</p>
           <p>React</p>
+          <a href='https://drive.google.com/file/d/10a4j_DHDkFRl2JFb9Z1sy2KakoL6fexo/view?usp=sharing' target='_blank' class="button-primary">
+            CV em PDF
+          </a>
         </div>
-
-        <a href='https://drive.google.com/file/d/10a4j_DHDkFRl2JFb9Z1sy2KakoL6fexo/view?usp=sharing' target='_blank' class="button-primary">
-          CV em PDF
-        </a>
       </div>
 
-      <div class="not-in-mobile">
+      <div class="not-in-mobile not-in-ipad">
         <img src='./assets/images/group-29.png' srcset='./assets/images/group-29@2x.png 2x,
                 ./assets/images/group-29@3x.png 3x' class='avatar-img' alt='Avatar Jay'>
       </div>
@@ -187,6 +188,13 @@
       <!-- second project -->
       <div class="project">
         <div>
+          <a href='https://github.com/Jailsom-Nogueira/fullstack-chat-turing-firebase' target='_blank'>
+            <img src='./assets/images/macbook-chat-firebase.png' srcset='./assets/images/macbook-chat-firebase@2x.png 2x,
+                  ./assets/images/macbook-chat-firebase@3x.png 3x' class='social-icon' alt='Instagram icon'>
+          </a>
+        </div>
+
+        <div>
           <h2>Chat Firebase</h2>
           <h4>Fullstack</h4>
           <p>Projeto fullstack e desktop first de um chat em tempo real.</p>
@@ -202,13 +210,6 @@
               front-end Github
             </a>
           </div>
-        </div>
-
-        <div>
-          <a href='https://github.com/Jailsom-Nogueira/fullstack-chat-turing-firebase' target='_blank'>
-            <img src='./assets/images/macbook-chat-firebase.png' srcset='./assets/images/macbook-chat-firebase@2x.png 2x,
-                  ./assets/images/macbook-chat-firebase@3x.png 3x' class='social-icon' alt='Instagram icon'>
-          </a>
         </div>
       </div>
 
@@ -242,7 +243,7 @@
 
     <div id="contact-block">
       <div id="contact-wrapper">
-        <div>
+        <div class="not-in-mobile">
           <img src='./assets/images/contact.png' srcset='./assets/images/contact@2x.png 2x,
               ./assets/images/contact@3x.png 3x' class='social-icon' alt='Instagram icon'>
         </div>

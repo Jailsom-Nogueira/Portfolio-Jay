@@ -120,24 +120,31 @@ p {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
   z-index: 1;
 
-  color: #06aba3;
+  color: #0081d1;
   background-color: white;
 }
-#menu a{
+
+#menu a {
   margin-left: 1rem;
   text-decoration: none;
+  transition: 0.3s;
 
-  color: #06aba3;
+  color: #0081d1;
 }
 
-#menu div a{
+#menu a:hover {
+  color: #ffbf0d;
+}
+
+#menu div a {
   margin-left: 1rem;
   text-decoration: none;
+  transition: 0.3s;
 
-  color: #06aba3;
+  color: #0081d1;
 }
 
-#menu div :hover, :active, :focus{
+#menu div:hover{
   color: #ffbf0d;
 }
 
@@ -168,23 +175,27 @@ p {
   flex-wrap: wrap;
   column-gap: 2rem;
   width: 100%;
-  padding: 2rem 0;
+  padding: 3rem 0 4rem 0;
 
   color: white;
   background-color: #063447;
 }
+
 #about-block-left {
   width: 60%;
   padding-left: 4rem;
 }
+
 #about-block-left h1 {
   margin: 0 0 2rem 0;
 }
+
 #about-block-left div {
   display: flex;
   column-gap: 0.8rem;
   margin-bottom: 0.8rem;
 }
+
 #about-block-left div p{
   border-left: 4px solid white;
   padding-left: 0.5rem;
@@ -207,6 +218,7 @@ p {
 .full-width-block {
   text-align: center;
   width: 100%;
+  margin-top: 1rem;
 }
 
 .two-columns-block {
@@ -218,7 +230,7 @@ p {
   width: 40%;
 }
 .two-columns-block h1{
-  font-size: 3.6rem;
+  font-size: 3rem;
   margin: 1rem 0;
 }
 
@@ -226,7 +238,7 @@ p {
 #education-block {
   text-align: center;
   width: 100%;
-  padding: 2rem 0;
+  padding: 3rem 0 2rem 0;
 
   color: white;
   background-color: #f2b33e;
@@ -260,7 +272,7 @@ p {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 2rem 0;
+  padding: 3rem 0 2rem 0;
 
   color: #292929;
 }

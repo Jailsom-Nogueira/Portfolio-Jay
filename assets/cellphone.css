@@ -172,6 +172,7 @@ p {
 
 /* Profile Pic */
 #profile-pic-block {
+  display: block!important;
   background-color: #063447;
 }
 

@@ -107,6 +107,10 @@ p {
   max-width: 1000px;
 }
 
+.not-in-desktop {
+  display: none;
+}
+
 /* Menu */
 #menu {
   display: flex;

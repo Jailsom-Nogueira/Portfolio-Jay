@@ -5,17 +5,32 @@
   <meta charset='utf-8' />
   <link rel='icon' href='./assets/images/favicon.ico' />
 
+  <script src="https://kit.fontawesome.com/336a26bbe9.js" crossorigin="anonymous"></script>
+
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
-  <link rel='stylesheet' href='./assets//styles.css'>
+  <link rel="stylesheet" media='screen and (min-width: 140px) and (max-width: 1000px)' href="./assets/ipad.css" />
+  <link rel='stylesheet' href='./assets/styles.css'>
 
   <title>Portfolio Jay</title>
 </head>
 
 <body>
   <div id='web-site-container'>
+    <div id='home'></div>
+    <div id='menu'>
+      <a href="#home">
+        <h1>Jay</h1>
+      </a>
+      <div>
+        <a href="#about-block">quem sou</a>
+        <a href="#projects-block">projetos</a>
+        <a href="#contact-block">contato</a>
+      </div>
+    </div>
+
     <div id='banner-block'>
-      <img id='profile-pic' src='./assets/images/profile-picture-jay-big-square.jpg' alt='Profile Jay'>
+      <img id='profile-pic' src='./assets/images/profile-picture-jay-big.jpg' alt='Profile Jay'>
 
       <div>
         <h3>Olá!</h3>
@@ -24,24 +39,21 @@
         <p>Apaixonado por tecnologia e programação.</p>
       </div>
 
-      <div id='social-icons'>
+      <div class='social-icons-vertical'>
         <a href='https://www.linkedin.com/in/jailsom-nogueira/' target='_blank'>
-          <img src='./assets/images/group-10-copy.png' srcset='./assets/images/group-10-copy@2x.png 2x,
-                ./assets/images/group-10-copy@3x.png 3x' class='social-icon' alt='LinkedIn icon'>
+          <i class="fab fa-linkedin-in"></i>
         </a>
 
         <a href='https://wa.me/5527995792112?text=Olá%20Jay!%20Te%20achei%20pelo%20seu%20site.' target='_blank'>
-          <img src='./assets/images/group-3-copy.png' srcset='./assets/images/group-3-copy@2x.png 2x,
-             ./assets/images/group-3-copy@3x.png 3x' class='social-icon' alt='Whastapp icon'>
+          <i class="fab fa-whatsapp"></i>
         </a>
 
         <a href='https://github.com/Jailsom-Nogueira/' target='_blank'>
-          <img src='./assets/images/fill-1-copy.png' srcset='./assets/images/fill-1-copy@2x.png 2x, ./assets/images/fill-1-copy@3x.png 3x' class='social-icon' alt='Github icon'>
+          <i class="fab fa-github"></i>
         </a>
 
         <a href='https://www.instagram.com/jotac_nogueira/' target='_blank'>
-          <img src='./assets/images/group-8-copy.png' srcset='./assets/images/group-8-copy@2x.png 2x,
-                ./assets/images/group-8-copy@3x.png 3x' class='social-icon' alt='Instagram icon'>
+          <i class="fab fa-instagram"></i>
         </a>
       </div>
     </div>
@@ -53,11 +65,11 @@
         </p>
 
         <p>
-          Dev fullstack formado em 2020 através da Labenu - SP. Lá abordamos desenvolvimento em inteligência emocional e profissional em stack Javascript, HTML, CSS, React.js, Git, Github, Amazon Web Services, SQL, Typescript, Unit Testing, Firebase, Jest e Node.js. Também pretendo retomar o curso superior em Sistemas da Informação em 2021.
+          Dev fullstack formado em 2020 através da Labenu - SP. Lá abordamos desenvolvimento em inteligência emocional e profissional em stack Javascript, HTML, CSS, React.js, Git, Github, Amazon Web Services, SQL, Typescript, Unit Testing, Firebase, Jest e Node.js.
         </p>
 
         <p>
-          Adoro trabalhar em equipe e confio que um time unido pode trazer melhores resultados ao produto final, desde design e experiência até o desenvolvimento e implementação. Amo o que faço, este é um dos motivos de tanta curiosidade em buscar novas experiências.
+          Adoro viajar e sair com amigos e família. Amo o que faço, este é um dos motivos de tanta curiosidade em buscar novas experiências.
         </p>
         <div>
           <p>NodeJS</p>
@@ -67,20 +79,20 @@
           <p>React</p>
         </div>
 
-        <a href='https://drive.google.com/file/d/10a4j_DHDkFRl2JFb9Z1sy2KakoL6fexo/view?usp=sharing' target='_blank' class="cv-button">
+        <a href='https://drive.google.com/file/d/10a4j_DHDkFRl2JFb9Z1sy2KakoL6fexo/view?usp=sharing' target='_blank' class="button-primary">
           CV em PDF
         </a>
       </div>
 
-      <div>
+      <div class="not-in-mobile">
         <img src='./assets/images/group-29.png' srcset='./assets/images/group-29@2x.png 2x,
-                ./assets/images/group-29@3x.png 3x' class='avatar-img'>
+                ./assets/images/group-29@3x.png 3x' class='avatar-img' alt='Avatar Jay'>
       </div>
     </div>
 
     <div id="knowledges-block">
       <div class="full-width-block">
-        <h3>Meus conhecimentos</h3>
+        <h2>Meus conhecimentos</h2>
       </div>
       <div>
 
@@ -108,7 +120,161 @@
           </div>
         </div>
       </div>
+    </div>
 
+    <div id="education-block">
+      <div>
+        <h2>Educação</h2>
+      </div>
+      <div class="three-columns">
+        <div>
+          <h4>Curso de Web Full Stack na Labenu - 2020</h4>
+          <p>A Labenu é uma startup que forma Desenvolvedores Web Full Stack prontos para o mercado de trabalho.</p>
+          <p>São mais de 1000 horas de programação que faz com que seus alunos sejam profissionais completos tanto no Back-End quanto no Front-End</p>
+        </div>
+
+        <div>
+          <h4>Sistemas de Informação na FAESA - 2012</h4>
+          <p>Curso de nível Superior Bacharelato.</p>
+          <p>Não tive a oportunidade de finalizar este curso mas pretendo retomar esta graduação em 2021.</p>
+        </div>
+
+        <div>
+          <h4>Os mais variados cursos</h4>
+          <p>Estou sempre fazendo novos cursos voltados a programação ou inteligência emocional.</p>
+          <p>Seja por motivos de capacitação ou apenas curiosidade. Quer testar? Me pergunte: "Jay que curso você está fazendo?"</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects-block">
+      <div>
+        <h1>Meus projetos</h1>
+      </div>
+
+      <!-- first project -->
+      <div class="project">
+        <div>
+          <a href='https://github.com/Jailsom-Nogueira/front-gerenciador-de-imagens-full-stack' target='_blank'>
+            <img src='./assets/images/fullstack-gallery.png' srcset='./assets/images/fullstack-gallery@2x.png 2x,
+                  ./assets/images/fullstack-gallery@3x.png 3x' class='social-icon' alt='Instagram icon'>
+          </a>
+        </div>
+
+        <div>
+          <h2>My gallery</h2>
+          <h4>Fullstack</h4>
+          <p>Projeto fullstack e desktop first de um gerenciador de imagens.</p>
+          <p>Autenticação de usuário, upload, delete e categorização.</p>
+          <div class="border-flags">
+            <p>NodeJS</p>
+            <p>MySQL</p>
+            <p>Javascript</p>
+            <p>Typescript</p>
+            <p>React</p>
+          </div>
+          <div>
+            <a href='https://github.com/Jailsom-Nogueira/front-gerenciador-de-imagens-full-stack' target='_blank' class="button-primary">
+              front-end Github
+            </a>
+            <a href='https://github.com/Jailsom-Nogueira/back-gerenciador-de-imagens-full-stack' target='_blank' class="button-secundary">
+              back-end Github
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- second project -->
+      <div class="project">
+        <div>
+          <h2>Chat Firebase</h2>
+          <h4>Fullstack</h4>
+          <p>Projeto fullstack e desktop first de um chat em tempo real.</p>
+          <p>Autenticação de usuário via google ou email, troca de mensagens de texto ou upload de imagens.</p>
+          <div class="border-flags">
+            <p>NodeJS</p>
+            <p>Firebase</p>
+            <p>Javascript</p>
+            <p>React</p>
+          </div>
+          <div>
+            <a href='https://github.com/Jailsom-Nogueira/fullstack-chat-turing-firebase' target='_blank' class="button-primary">
+              front-end Github
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <a href='https://github.com/Jailsom-Nogueira/fullstack-chat-turing-firebase' target='_blank'>
+            <img src='./assets/images/macbook-chat-firebase.png' srcset='./assets/images/macbook-chat-firebase@2x.png 2x,
+                  ./assets/images/macbook-chat-firebase@3x.png 3x' class='social-icon' alt='Instagram icon'>
+          </a>
+        </div>
+      </div>
+
+      <!-- third project -->
+      <div class="project">
+        <div>
+          <a href='https://github.com/Jailsom-Nogueira/Astromatch' target='_blank'>
+            <img src='./assets/images/ipad-astromatch.png' srcset='./assets/images/ipad-astromatch@2x.png 2x,
+                  ./assets/images/ipad-astromatch@3x.png 3x' class='social-icon' alt='Instagram icon'>
+          </a>
+        </div>
+
+        <div>
+          <h2>Astromatch</h2>
+          <h4>Front-end</h4>
+          <p>App "Tinder like" consumindo de uma API os dados de outras pessoas em busca de um "match".</p>
+          <p>Na tela principal opções de dar ou não "match", outra tela para ver todos os "matchs" e botão de limpar todos.</p>
+          <div class="border-flags">
+            <p>NodeJS</p>
+            <p>Javascript</p>
+            <p>React</p>
+          </div>
+          <div>
+            <a href='https://github.com/Jailsom-Nogueira/Astromatch' target='_blank' class="button-primary">
+              front-end Github
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact-block">
+      <div id="contact-wrapper">
+        <div>
+          <img src='./assets/images/contact.png' srcset='./assets/images/contact@2x.png 2x,
+              ./assets/images/contact@3x.png 3x' class='social-icon' alt='Instagram icon'>
+        </div>
+
+        <div id="text-box-contact">
+          <h1>Contato</h1>
+          <p>Procuro oportunidade de trabalho onde eu possa aprender, me desenvolver e evoluir na minha carreia profissional.</p>
+
+
+          <div class='social-icons-horizontal'>
+            <a href='https://www.linkedin.com/in/jailsom-nogueira/' target='_blank'>
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href='https://wa.me/5527995792112?text=Olá%20Jay!%20Te%20achei%20pelo%20seu%20site.' target='_blank'>
+              <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <a href='https://github.com/Jailsom-Nogueira/' target='_blank'>
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a href='https://www.instagram.com/jotac_nogueira/' target='_blank'>
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <h3>© 2020 Jay</h3>
     </div>
   </div> <!-- web-site-container -->
 </body>
